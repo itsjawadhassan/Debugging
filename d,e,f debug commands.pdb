@@ -1,0 +1,11 @@
+// show all register
+r
+// show all commands
+?
+//display memory dump
+-d r1 r2 or just -d ds:r1 where r1 is range aka address
+// entering data in memory when one address is given also in e only required data is filled and rest memory is left as it is
+-e r1 44 or ff or "ali"
+//entering data in memory when 2 address are given and if u want to keep repeating the data in those addresses 
+-f r1 r2 data aka 44 or "sabey is amaazing"
+// for string use "" it will display in most right column where as if went in middle column data we just type data without "" eg : aa or 33 etc.
