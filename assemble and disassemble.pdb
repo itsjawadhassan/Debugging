@@ -1,0 +1,16 @@
+//search 1 block shows result if data found
+-s 100 104 data
+//compares 2 blocks and shows result if different data found
+-c 100 104 120
+//moves data from 1 block to another
+-m 100 104 120
+//hexadecimal takes 2 numbers 1st add then subtract + finds negative 
+-h 012f 223a
+-h 0 128f
+// we can tell if hexa number is positive or negative by converting left most hexa bit into 4 binary bits and if first bit 1 then negative else positive, also we can take 2s compliment to 
+convert neg to pos and vice versa
+//we can assemble meaning convert mnemonics into machine code 
+-a 100
+0gfd: move ax,[bx]
+//also disassemble back to mnemonics 
+-d 100
