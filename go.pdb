@@ -1,0 +1,4 @@
+//go command for all update in reg
+g=cs:100 11f
+//trace commnad for step by step tracing
+t=cs:100 
